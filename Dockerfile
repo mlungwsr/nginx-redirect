@@ -1,3 +1,3 @@
 FROM nginx
 COPY default.conf /etc/nginx/conf.d/
-expose 80
+EXPOSE 80
